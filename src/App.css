@@ -1,0 +1,151 @@
+.App {
+    background: #92C1F0;
+}
+
+.home-grid {
+    background: #92C1F0;
+    position: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 98%;
+    text-align: center;
+    justify-content: center;
+}
+
+.projects-grid {
+    background: #92C1F0;
+    position: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 98%;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Home */
+.banner-text h1 {
+    font-size: 35px;
+    color: black;
+    font-family: 'Work Sans';
+    margin-top: 6.25em;
+    margin-bottom: 0.25em;
+}
+
+/* Span: newline on small screens */
+@media only screen and (max-width: 600px) {
+    .banner-text h1 {
+        margin-top: 5em;
+    }
+
+    .banner-text span {
+        display: block;
+        margin-top: -0.125em;
+    }
+}
+
+.banner-text p {
+    font-size: 15px;
+    color: black;
+    font-family: 'Open Sans';
+}
+
+.banner-text br {
+    content: "";
+    margin: -1em;
+    display: block;
+    font-size: 20%;
+}
+
+.banner-text hr {
+    border-top: 1px solid black;
+    width: 15em;
+    margin-top: 1.25em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links img {
+    padding: 3px;
+}
+
+.social-icon {
+    height: 55px;
+}
+
+/* Projects */
+.projects-mobile {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -1.5em;
+}
+
+.projects-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-header h1 {
+    font-size: 35px;
+    color: black;
+    font-family: 'Work Sans';
+    margin-top: 12.5em;
+}
+
+.projects-title {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    margin: auto;
+}
+
+.projects-mobile a {
+    text-decoration: none;
+}
+
+.projects-desktop a {
+    text-decoration: none;
+}
+
+.projects-desc {
+    font-family: 'Roboto Condensed';
+    color: black;
+    font-size: 17px;
+    height: 120px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: -0.5em;
+}
+
+.projects-tech {
+    font-size: 13px;
+    color: black;
+    font-family: 'Cousine';
+    margin: auto;
+}
+
+.projects-divider {
+    content: "";
+    display: block;
+    margin-bottom: 40px;
+}
+
+/* Br: Extra margin for big screens */
+@media only screen and (min-width: 600px) {
+    .projects-desktop-endpage br {
+        content: "";
+        display: block;
+        margin-bottom: 15px;
+    }
+}
